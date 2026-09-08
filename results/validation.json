@@ -1,0 +1,74 @@
+{
+  "degree_diagnostic": [
+    {
+      "network": "biogrid",
+      "nodes": 20622,
+      "edges": 976257,
+      "mean_degree": 94.7,
+      "corr_z_deg": 0.113,
+      "corr_d_deg": -0.103,
+      "corr_z_nT": -0.258,
+      "corr_d_nT": -0.105,
+      "mean_d": 1.47,
+      "ms_per_pair": 1056.7
+    },
+    {
+      "network": "string700",
+      "nodes": 15723,
+      "edges": 233370,
+      "mean_degree": 29.7,
+      "corr_z_deg": 0.016,
+      "corr_d_deg": -0.284,
+      "corr_z_nT": -0.297,
+      "corr_d_nT": -0.026,
+      "mean_d": 1.44,
+      "ms_per_pair": 449.8
+    },
+    {
+      "network": "hetionet_gig",
+      "nodes": 15139,
+      "edges": 147149,
+      "mean_degree": 19.4,
+      "corr_z_deg": 0.077,
+      "corr_d_deg": -0.098,
+      "corr_z_nT": -0.175,
+      "corr_d_nT": -0.077,
+      "mean_d": 1.65,
+      "ms_per_pair": 215.9
+    },
+    {
+      "network": "huri",
+      "nodes": 8093,
+      "edges": 51578,
+      "mean_degree": 12.7,
+      "corr_z_deg": -0.099,
+      "corr_d_deg": -0.171,
+      "corr_z_nT": -0.065,
+      "corr_d_nT": 0.019,
+      "mean_d": 2.18,
+      "ms_per_pair": 52.6
+    },
+    {
+      "network": "lit_bm",
+      "nodes": 5566,
+      "edges": 12447,
+      "mean_degree": 4.5,
+      "corr_z_deg": 0.04,
+      "corr_d_deg": -0.135,
+      "corr_z_nT": -0.314,
+      "corr_d_nT": -0.115,
+      "mean_d": 2.16,
+      "ms_per_pair": 70.9
+    }
+  ],
+  "module_sizes": {
+    "p25": 1,
+    "p50": 3,
+    "p75": 11,
+    "p90": 43,
+    "p99": 502,
+    "max": 5654
+  },
+  "centre_coverage_biogrid_all": 0.8064516129032258,
+  "failures": []
+}
