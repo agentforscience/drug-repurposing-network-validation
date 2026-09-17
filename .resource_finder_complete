@@ -1,0 +1,7 @@
+Resource finding phase completed successfully.
+Timestamp: 2026-09-08T18:46:49+00:00
+Papers downloaded: 74 (of 110 top-ranked; 1192 unique screened; 5 additional full-text XML)
+Datasets downloaded: 12 sources -> 13 processed artifacts (7 interactomes x 2 disease-gene definitions x up to 5797 labelled repoDB pairs)
+Repositories cloned: 2 (emreg00/toolbox reference implementation, adam-sam-brown/repoDB gold standard)
+Environment: isolated uv venv at .venv/ (Python 3.12.8)
+Method under test implemented and validated: code/proximity.py (~3 ms/pair)

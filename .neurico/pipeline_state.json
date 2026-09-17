@@ -1,0 +1,77 @@
+{
+  "created_at": "2026-09-08T17:24:36.588132Z",
+  "stages": {
+    "resource_finder": {
+      "status": "completed",
+      "started_at": "2026-09-08T17:24:36.611172Z",
+      "completed_at": "2026-09-08T18:47:04.519544Z",
+      "success": true,
+      "outputs": {
+        "literature_review": "/workspaces/network_pharmacology_approache_20260908_172336_17b06cb2/literature_review.md",
+        "resources_catalog": "/workspaces/network_pharmacology_approache_20260908_172336_17b06cb2/resources.md",
+        "papers_dir": "/workspaces/network_pharmacology_approache_20260908_172336_17b06cb2/papers",
+        "datasets_dir": "/workspaces/network_pharmacology_approache_20260908_172336_17b06cb2/datasets",
+        "code_dir": "/workspaces/network_pharmacology_approache_20260908_172336_17b06cb2/code"
+      },
+      "expected_outputs": [
+        "literature_review.md",
+        "resources.md"
+      ],
+      "next_steps": [
+        "Review the literature and resource catalog before running experiments."
+      ],
+      "workspace_check": {
+        "expected": "/workspaces/network_pharmacology_approache_20260908_172336_17b06cb2",
+        "actual": "/app",
+        "exists": true,
+        "is_directory": true,
+        "cwd_matches": false,
+        "healthy": true
+      },
+      "workspace_check_at_completion": {
+        "expected": "/workspaces/network_pharmacology_approache_20260908_172336_17b06cb2",
+        "actual": "/app",
+        "exists": true,
+        "is_directory": true,
+        "cwd_matches": false,
+        "healthy": true
+      },
+      "output_validation": {
+        "valid": true,
+        "expected": [
+          "literature_review.md",
+          "resources.md"
+        ],
+        "present": [
+          "literature_review.md",
+          "resources.md"
+        ],
+        "missing": [],
+        "outside_workspace": []
+      }
+    },
+    "experiment_runner": {
+      "status": "in_progress",
+      "started_at": "2026-09-08T18:47:04.562046Z",
+      "completed_at": null,
+      "success": null,
+      "outputs": {},
+      "expected_outputs": [
+        "REPORT.md"
+      ],
+      "next_steps": [
+        "Validate the report and experimental artifacts before finalizing."
+      ],
+      "workspace_check": {
+        "expected": "/workspaces/network_pharmacology_approache_20260908_172336_17b06cb2",
+        "actual": "/app",
+        "exists": true,
+        "is_directory": true,
+        "cwd_matches": false,
+        "healthy": true
+      }
+    }
+  },
+  "current_stage": "experiment_runner",
+  "completed": false
+}
